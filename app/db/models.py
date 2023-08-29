@@ -24,3 +24,9 @@ class Vehicle(Base):
 
     def __repr__(self):
         return self.name
+
+
+__all__ = [
+    'Brand',
+    'Vehicle'
+]
